@@ -54,6 +54,11 @@ p{
 	font-size: 3rem;
 	margin-bottom: 10px; 
 }
+
+img {
+	display: block; 
+	max-width: 100%;
+} 
 /**********************************/
 /* 2. Menu
 /**********************************/
@@ -106,12 +111,16 @@ p{
 .somos-c{
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 }
 
-.somos-c__text {
+.somos-c__texto {
 	flex: 6 1 160px; 
 }
 
+.somos-c__img{
+	flex: 1 1 350px;
+}
 /**********************************/
 /* 5. Nossos cursos
 /**********************************/
@@ -131,4 +140,3 @@ p{
 /**********************************/
 /* 9. Footer
 /**********************************/
-

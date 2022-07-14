@@ -1,11 +1,10 @@
 # Frontbox
 
-Nesse repositório você encontra os *starter files* de um projeto construído com HTML/CSS, utilizando Flexbox. Iremos construir um site responsivo para uma empresa fictícia chamada Frontbox.
+Projeto construído com HTML/CSS, utilizando Flexbox. 
 
-- Você pode conferir o resultado final do projeto [clicando aqui](https://frontbox.surge.sh/).
-- Assista ao passo a passo (dividido em 7 partes) [clicando aqui](https://www.youtube.com/playlist?list=PL28O_hEAqjAsDpyOY09Ju_KJcHegksekf).
+site construido responsivo para uma empresa fictícia chamada Frontbox.
 
-## O que você irá aprender ao terminar esse projeto:
+## Aprendizado do projeto:
 
 - Flexbox
 - Box Sizing
@@ -13,3 +12,5 @@ Nesse repositório você encontra os *starter files* de um projeto construído c
 - Trabalhar com variáveis CSS
 - Media Queries
 
+
+- Playlist do projeto do canal 'Inkasa Dev' [clicando aqui](https://www.youtube.com/watch?v=Y1dTtZXIMhg&list=PL28O_hEAqjAsDpyOY09Ju_KJcHegksekf&ab_channel=InkasaDev).
