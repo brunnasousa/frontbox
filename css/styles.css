@@ -161,7 +161,7 @@ img {
 	flex-wrap: wrap;
 	justify-content: center;
 
-	align-items: flex-end;
+	align-items: flex-end; /*alinhando pela base*/
 }
 
 .plano{
@@ -262,6 +262,57 @@ img {
 /**********************************/
 /* 7. Vantagens
 /**********************************/
+.vantagens{
+	max-width: 980px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: space-between;
+}
+
+.vantagem{
+	max-width: 240px;
+	margin: 10px;
+}
+
+.vantagem__titulo{
+	font-size: 1.7rem;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+/*pseudo-elemento - before = marcador*/
+.vantagem__titulo::before{
+	content: ""; /*necessario para poder aparecer o marcador*/
+	display: inline-block;
+	width: 10px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+
+/*1 e 4 filho*/
+.vantagem:nth-of-type(3n+1) .vantagem__titulo::before{
+	background: var(--clr-green-light);
+}
+
+/*2 e 5 filho*/
+.vantagem:nth-of-type(3n+2) .vantagem__titulo::before{
+	background: var(--clr-pink-dark);
+}
+
+/*3 e 6 filho*/
+.vantagem:nth-of-type(3n+3) .vantagem__titulo::before{
+	background: var(--clr-green-dark);
+}
+
+@media (max-width: 800px){
+	.vantagem {
+		max-width: 220px;
+	}
+}
+
 
 /**********************************/
 /* 8. Newsletter
